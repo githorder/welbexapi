@@ -2,7 +2,8 @@
   "name": "back-end-project",
   "version": "1.0.0",
   "engines": {
-    "node": "16.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "description": "back-end project for welbeX",
   "main": "server.js",

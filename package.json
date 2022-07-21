@@ -1,0 +1,30 @@
+{
+  "name": "back-end-project",
+  "version": "1.0.0",
+  "description": "back-end project for welbeX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express.js",
+    "knex.js",
+    "nodejs"
+  ],
+  "author": "Diyor",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1178.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
